@@ -141,22 +141,35 @@ These recommendations align with product-led growth and retention strategy.
 - If ineffective, refine targeting criteria or retention strategy.
 ---
 
-### ▶️ How to Run the Analysis
+# ▶️ How to Run the Analysis
 - git clone https://github.com/Denis0242/Customer-Churn.git
 - cd Customer-Churn
 - jupyter notebook
 
 **Also don't forget to**
 - Create a virtual environment
-- Install the required packages by running 
+  
+**Install the required packages by running**
+- pip install -r requirements.txt
 
-``` pip install -r requirements.txt ```
+**To train the models**
+- Run the application by running the train script to train the models and save them
+ - python train.py
 
+**For the EDA**
+- Run the app2 file to view the EDA for the customers to understand the customers data
+- streamlit run app2.py
+
+**For the prediction**
+- To run the predictions model and make prediction in the streamlit application, run the app.py file
+- streamlit run app.py
+---
 ### 👤 Author
 **Denis Agyapong:**
 
 **Product Data Science / Data Analytics**
 - **Focused on churn, retention, user behavior, and data-informed product decisions**
+
 
 
 
