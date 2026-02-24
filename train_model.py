@@ -55,7 +55,7 @@ class ChurnPredictor:
         
         # Encode target variable
         if 'Churn?' in df_processed.columns:
-            df_processed['Churn?'] = df_processed['Churn?'].map({True: 1, False: 0, 'True': 1, 'False': 0})
+            df_processed['Churn?'] = df_processed['Churn?'].map({True: 1, False: 0, 'True.': 1, 'False.': 0})
         
         # One-hot encode State
         if 'State' in df_processed.columns:
@@ -241,7 +241,7 @@ if __name__ == "__main__":
     predictor = ChurnPredictor()
     
     # Load and preprocess data (replace 'churn_data.csv' with your file path)
-    df = predictor.load_and_preprocess_data('C:/Users/Admin/Desktop/Freelance/Denis/Projects/Retention_Engine/Data/churn.csv')
+    df = predictor.load_and_preprocess_data('C:\My_Projects\All_Projects\Customer-Churn\data\churn.csv')
     
     # Feature engineering
     df_processed = predictor.feature_engineering(df)

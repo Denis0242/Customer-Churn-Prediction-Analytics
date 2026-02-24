@@ -251,7 +251,7 @@ class ChurnModelTrainer:
 
 if __name__ == "__main__":
     # Initialize
-    path = r"C:\Users\Admin\Desktop\Freelance\Denis\Projects\Retention_Engine\Data\churn_preprocessed.csv"
+    path = r"C:\My_Projects\All_Projects\Customer-Churn\data\churn_preprocessed.csv"
     trainer = ChurnModelTrainer(path)
     
     # Execute pipeline

@@ -201,7 +201,7 @@ class ChurnEDAPreprocessor:
 
 if __name__ == "__main__":
     # Initialize
-    path = r"C:\Users\Admin\Desktop\Freelance\Denis\Projects\Retention_Engine\Data\churn.csv"
+    path = r"C:\My_Projects\All_Projects\Customer-Churn\data\churn.csv"
     processor = ChurnEDAPreprocessor(path)
     
     # Execute pipeline
