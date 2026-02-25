@@ -216,8 +216,11 @@ Customer-Churn/
 # 👤 Author
 
 **Denis Agyapong**
+
 **Product Data Scientist | Data Analyst**
+
 **Oakland, CA**
+
 
 
 
