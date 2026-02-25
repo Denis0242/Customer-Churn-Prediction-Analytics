@@ -196,11 +196,11 @@ Customer-Churn/
 
 ---
 
-# How to Run
+# How to Run this
 
 **Clone the repository:**
 - git clone https://github.com/Denis0242/Customer-Churn.git
--cd Customer-Churn
+- cd Customer-Churn
 
 **Install dependencies:**
 - pip install -r requirements.txt
@@ -217,5 +217,6 @@ Customer-Churn/
 **Denis Agyapong**
 **Product Data Scientist | Data Analyst**
 **Oakland, CA**
+
 
 
