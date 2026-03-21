@@ -1,3 +1,8 @@
+
+
+
+
+
 import os
 import streamlit as st
 import pandas as pd
@@ -8,7 +13,7 @@ import plotly.graph_objects as go
 
 # Page configuration
 st.set_page_config(
-    page_title="Telecom Churn Prediction",
+    page_title="Customer Churn Prediction",
     page_icon="📞",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -389,7 +394,7 @@ def preprocess_batch_data(df, feature_names):
 def main():
     st.markdown("""
         <div class="hero-box">
-            <h1 class="main-header">📞 Telecom Churn Prediction System</h1>
+            <h1 class="main-header">📞 Customer Churn Prediction System</h1>
             <p class="sub-header">AI-Powered Customer Retention Analytics Dashboard</p>
             <div style="text-align:center;">
                 <span class="insight-pill">Churn Risk Scoring</span>
@@ -439,7 +444,7 @@ def main():
             st.markdown("""
                 <div class="metric-card">
                     <h3>📊 Features</h3>
-                    <p>Model-ready telecom churn attributes and engineered signals</p>
+                    <p>Model-ready customer churn attributes and engineered signals</p>
                 </div>
             """, unsafe_allow_html=True)
 
