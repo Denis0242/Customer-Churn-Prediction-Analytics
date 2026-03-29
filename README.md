@@ -1,228 +1,195 @@
 
-# 📊 Customer Churn Prediction | Product Data Science Case Study
+🚀 **Featured Project: End-to-End Customer Churn Prediction, Retention Analytics, and Product Decision Support**
 
-**Product Data Science | Retention Analytics | Machine Learning | Experimentation Strategy | Revenue Optimization**
+🔍**Live App:**
 
----
+**Live App:** https://denis0242-customer-churn-app-bfp0q8.streamlit.app  
 
-# 🚀 Executive Summary
- Customer churn directly impacts revenue, growth, and long-term product sustainability.
-This project approaches churn not just as a classification problem — but as a product retention and revenue optimization challenge.
+**GitHub:** https://github.com/Denis0242/Customer-Churn
 
 ---
 
-**The goal is to:**
-- Identify high-risk churn segments
-- Understand behavioral and contractual drivers
-- Quantify business impact
-- Recommend product-level interventions
-- Enable experimentation-driven retention strategies
+## 📌 Overview
 
-**This mirrors how churn is handled in SaaS, FinTech, HealthTech, and Telecom product organizations.**
+This project analyzes customer churn using Python, machine learning, and interactive analytics to identify at-risk customers, uncover retention drivers, and support data-driven product and business decisions.
+
+It is designed to simulate real-world Product Data Analyst and Data Analyst workflows, including data cleaning, exploratory data analysis (EDA), churn modeling, KPI development, customer segmentation, and retention strategy recommendations.
 
 ---
 
-# 🎯 Product Problem Statement
-**Subscription-based products experience revenue leakage when customers cancel early.**
-- **Key Product Questions:**
+## 🎯 Business Problem
+
+Customer churn directly reduces revenue, lowers customer lifetime value, and slows long-term growth. Without early churn detection:
+
+- High-risk customers go unnoticed  
+- Retention efforts become reactive instead of proactive  
+- Revenue opportunities are lost  
+- Product and business teams lack clear signals for intervention  
+
+This project addresses that problem by combining churn prediction with retention-focused analysis and business recommendations.
+
+---
+
+## ❓ Key Business Questions
+
 - Which customers are most likely to churn?
-- What signals predict churn behavior?
-- When is the highest-risk churn window?
-- What retention experiment should be prioritized?
+- What factors are most strongly associated with churn?
+- Which customer segments need early intervention?
+- How can churn insights support retention strategy and product decision-making?
 
 ---
 
-# 📈 North Star Metric (NSM)
-**- Retention Rate / Active Subscription Rate**
+## 📊 Product Metrics & Impact
 
-**Supporting Metrics:**
-- Monthly Recurring Revenue (MRR)
-- Customer Churn Rate
-- Customer Lifetime Value (CLV)
-- Average Revenue Per User (ARPU)
-- Tenure Distribution
-- Contract Conversion Rate
+- Defined KPIs to measure performance, including churn, retention, tenure patterns, and revenue-related metrics  
+- Identified behavioral and contractual patterns linked to customer churn  
+- Highlighted opportunities to reduce churn and improve retention strategy  
+- Enabled data-driven decision-making through predictive insights and actionable recommendations  
 
 ---
 
-# 📊 Business Context Simulation
-**Assume:**
-- 10,000 active customers
-- 26% churn rate
-- $70 average monthly revenue
-- A 5% reduction in churn leads to significant annual revenue preservation.
+## 🔍 Product Analytics Focus
+
+- User behavior analysis  
+- KPI tracking and performance monitoring  
+- Trend and pattern identification  
+- Data-driven decision support  
 
 ---
 
-**This project provides predictive modeling to enable proactive intervention before churn occurs.**
+## 🧠 Analytical Approach
 
-# 🔍 Exploratory Product Insights
-**Key findings from EDA:**
-- Month-to-month contracts have the highest churn probability
-- Short-tenure customers churn within the early lifecycle stage
-- Higher monthly charges correlate with increased churn
-- Electronic check payment method shows elevated churn behavior
-
-**These insights inform targeted retention strategies.**
+- Cleaned and prepared raw customer data for analysis  
+- Performed exploratory data analysis (EDA) to identify churn patterns and risk segments  
+- Engineered features related to customer tenure, billing, and service behavior  
+- Built and evaluated churn prediction models using machine learning  
+- Interpreted model outputs to identify major churn drivers  
+- Translated findings into retention recommendations and experiment ideas  
 
 ---
 
-# 🤖 Machine Learning Approach
-**Models Evaluated:**
-- Logistic Regression
-- Random Forest
-- Decision Tree
-- Gradient Boosting (if applicable)
+## 🤖 Models Used
 
-**Evaluation Metrics:**
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-
-**The selected model achieved strong ROC-AUC performance and improved churn risk identification.**
+- Logistic Regression  
+- Random Forest  
+- Decision Tree  
+- Additional notebook-based experimentation for neural networks and model comparison  
 
 ---
 
-# 🧠 Feature Importance & Driver Analysis
+## 📈 Evaluation Metrics
 
-**Top predictors of churn:**
-- Contract Type
-- Tenure
-- Monthly Charges
-- Internet Service
-- Payment Method
-
-**Interpretation:**
-
-**Churn behavior is influenced primarily by lifecycle stage and contract structure rather than demographics — indicating product and pricing optimization opportunities.**
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- ROC-AUC  
 
 ---
 
-# 🧪 Experimentation Strategy (Product Lens)
-- Instead of stopping at prediction, this project proposes actionable experiments:
+## 🔑 Key Insights
 
-**1️⃣ Contract Conversion Incentive**
-- Offer discounted annual plans to month-to-month customers.
+- Customers on month-to-month contracts show higher churn risk  
+- Short-tenure customers are more likely to churn early in the lifecycle  
+- Higher monthly charges are associated with increased churn risk  
+- Payment and service choices can signal elevated churn behavior  
 
-**Hypothesis:**
-- Customers transitioning to long-term contracts will reduce churn probability.
-
-**2️⃣ Early Lifecycle Engagement Experiment**
-- Target customers within the first 90 days with onboarding nudges.
-
-**Hypothesis:**
-- Improved onboarding engagement increases long-term retention.
-
-**3️⃣ High-Value Customer Retention Offer**
-- Provide personalized loyalty offers to high ARPU customers flagged as high churn risk.
-
-**Hypothesis:**
-- Targeted retention incentives preserve revenue efficiently.
-
-**All experiments can be validated using A/B testing frameworks.**
-
-# 🏗️ End-to-End Workflow
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA) with business interpretation
-- Feature Engineering (contract type, tenure segmentation, billing patterns)
-- Encoding & Scaling
-- Train-Test Split
-- Model Training (Logistic Regression, Random Forest, etc.)
-- Model Evaluation (ROC-AUC, Precision, Recall, F1)
-- Feature Importance Analysis
-- Product-Level Interpretation & Strategy Recommendation 
+These insights can be used to prioritize retention campaigns, lifecycle interventions, and product or pricing experiments.
 
 ---
 
-# 🛠️ Tech Stack
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- Streamlit (optional deployment)
+## 💼 Business Impact
+
+- Identifies high-risk customers before churn occurs  
+- Supports targeted retention strategies for at-risk segments  
+- Helps teams prioritize interventions using churn drivers and customer patterns  
+- Strengthens customer lifetime value (LTV) and revenue preservation thinking  
+- Demonstrates how analytics can support product and business decision-making  
+
+### Project-Specific Impact
+
+- Identified high-risk customers contributing to potential churn  
+- Improved retention strategy by targeting at-risk segments  
+- Supported increase in customer lifetime value (LTV)  
 
 ---
 
-## 📂 Project Structure
+## 🧪 Retention & Experimentation Ideas
 
-```
-Customer-Churn/
-│
-├── data/
-├── notebooks/
-├── models/
-├── app.py
-├── requirements.txt
-└── README.md
-```
+This project can support follow-up experimentation such as:
 
-# 📊 Business Impact Summary
-- If implemented in production, this system enables:
-- Proactive churn detection
-- Targeted retention campaigns
-- Revenue preservation
-- Experiment-driven product decisions
-- Lifecycle-based segmentation
+- Contract conversion offers for month-to-month customers  
+- Early lifecycle onboarding interventions for new customers  
+- Targeted retention offers for high-value customers at high churn risk  
 
-**Even a 3–5% reduction in churn materially increases annual recurring revenue and customer lifetime value.**
-
---- 
-
-# 🔮 Future Enhancements
-- SHAP-based model explainability
-- Survival analysis for churn timing
-- Uplift modeling for retention targeting
-- Real-time churn scoring API
-- Automated A/B testing simulator integration
-- Deployment with FastAPI 
+These ideas can be tested using A/B testing frameworks to validate impact before rollout.
 
 ---
 
-# 🎯 Skills Demonstrated
-- Product Data Science
-- Customer Retention Analytics
-- Churn Modeling
-- Predictive Modeling
-- Feature Engineering
-- Machine Learning
-- Experiment Design
-- Revenue Optimization
-- Business Analytics
-- Python
+## 🛠️ Tools & Technologies
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+- Streamlit  
 
 ---
 
-# How to Run this
+## 📁 Project Structure
 
-**Clone the repository:**
-- git clone https://github.com/Denis0242/Customer-Churn.git
-- cd Customer-Churn
+Customer-Churn/  
+│  
+├── data/ — Dataset files  
+├── models/ — Saved model artifacts  
+├── Notebooks/ — Notebook-based analysis and experimentation  
+├── 01_eda_processing.py — Data cleaning and EDA workflow  
+├── 02_model_training_evaluation.py — Model training and evaluation  
+├── shap_analysis.py — Model explainability analysis  
+├── streamlit_app.py — Streamlit application  
+├── app.py — Dashboard/app entry file  
+├── train_model.py — Model training script  
+├── requirements.txt — Project dependencies  
+└── README.md — Project documentation  
 
-**Install dependencies:**
-- pip install -r requirements.txt
-
-**Run the notebook:**
-- jupyter notebook
-
-**If using Streamlit (optional):**
-- streamlit run app.py
 ---
 
-# 👤 Author
+## 🚀 How to Run Locally
 
-**Denis Agyapong**
+Clone the repository  
+git clone https://github.com/Denis0242/Customer-Churn.git  
 
-**Product Data Scientist | Data Analyst**
+Navigate into the project  
+cd Customer-Churn  
 
-**Oakland, CA**
+Install dependencies  
+pip install -r requirements.txt  
 
+Run the Streamlit app  
+streamlit run app.py  
 
+Optional: run notebooks  
+jupyter notebook  
 
+---
 
+## 🔍 Use Case
 
+This project demonstrates:
 
+- Strong data cleaning and exploratory data analysis (EDA) skills  
+- Ability to build churn prediction workflows using machine learning  
+- Understanding of retention analytics and KPI development  
+- Experience translating model outputs into business insights  
+- Product-focused thinking through customer behavior analysis and retention strategy  
+- End-to-end workflow from data preparation to modeling to decision support  
+
+---
+
+## 📌 Author
+
+**Denis Agyapong**  
+Product Data Analyst | Data Analyst
