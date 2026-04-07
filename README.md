@@ -59,6 +59,25 @@ Businesses need to proactively identify users likely to churn to:
 - Improve engagement features
 
 ---
+### Churn Prediction Distribution
+![Churn](assets/Churn.png)
+
+Displays predicted churn probabilities across users.
+
+---
+
+### Feature Importance
+![Features](assets/Features.png)
+
+Highlights key factors influencing churn predictions.
+
+---
+###  Distribution
+![Distribution](assets/Distribution.png)
+
+Segments users into high/low churn categories for targeted retention strategies.
+
+---
 
 ## ⚙️ Tools & Tech Stack
 Python, Scikit-learn, Pandas, Streamlit
