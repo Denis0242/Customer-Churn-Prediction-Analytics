@@ -8,55 +8,90 @@
 
 ---
 
-## 📌 Executive Summary
-Machine learning model to predict customer churn and identify key drivers of user attrition.
+## Overview
+
+This project simulates a real-world Product Data Analyst workflow for churn reduction, combining user behavior analysis, predictive modeling, and retention strategy design.
+
+The goal is not just to predict churn, but to enable **data-driven product decisions** that improve user retention.
 
 ---
 
-## 🎯 Business Problem
-Businesses need to proactively identify users likely to churn to:
-- Improve retention
-- Reduce revenue loss
+## Business Problem
+
+User churn is one of the most critical product challenges.  
+
+High churn reduces:
+- retention
+- lifetime value (LTV)
+- product growth
+
+**Objective:**  
+Identify high-risk users and design strategies to improve retention.
 
 ---
 
-## 📊 Dataset
-- Customer demographics
-- Usage patterns
-- Subscription data
+## Key Metrics
+
+- Churn Rate  
+- Retention Rate  
+- Lifetime Value (LTV)  
+- User Engagement Metrics  
 
 ---
 
-## 📊 Model Metrics
-- Accuracy
-- Precision / Recall
-- F1 Score
-- ROC-AUC
+## Approach
+
+### 1. Data Exploration
+- Analyzed user activity, tenure, and usage patterns  
+- Identified behavioral differences between churned and retained users  
+
+### 2. Feature Engineering
+- Created engagement-based features  
+- Derived usage frequency and activity indicators  
+
+### 3. Predictive Modeling
+- Built classification model (~82% ROC-AUC)  
+- Identified high-risk churn segments  
+
+### 4. Insight Generation
+Key churn drivers:
+- Low engagement frequency  
+- Short tenure  
+- Reduced product interaction  
 
 ---
 
-## 🔍 Analysis & Modeling
-- Data cleaning and preprocessing
-- Feature engineering
-- Logistic Regression, Random Forest
+## Product Insights
+
+- Users with low engagement are significantly more likely to churn  
+- Early-stage user experience strongly impacts retention  
+- Behavioral signals can be used for proactive intervention  
 
 ---
 
-## 📈 Model Performance
-- Strong predictive performance across key metrics
-- Feature importance highlights churn drivers
+## Product Recommendations
+
+- Improve onboarding experience to reduce early churn  
+- Introduce engagement triggers for inactive users  
+- Target high-risk users with personalized retention strategies  
 
 ---
 
-## 💡 Insights
-- High churn linked to low engagement
-- Certain user segments at higher risk
+## Business Impact
+
+- Identified high-risk users for targeted intervention  
+- Enabled retention strategies projected to improve retention by ~8%  
+- Improved decision-making for retention-focused product initiatives  
 
 ---
 
-## ✅ Recommendations
-- Target high-risk users with retention strategies
-- Improve engagement features
+## Decision Framework
+
+This system supports product teams in deciding:
+
+- Which users to target  
+- When to intervene  
+- What retention strategies to apply  
 
 ---
 ### Churn Prediction Distribution
@@ -79,22 +114,29 @@ Segments users into high/low churn categories for targeted retention strategies.
 
 ---
 
-## ⚙️ Tools & Tech Stack
-Python, Scikit-learn, Pandas, Streamlit
-
----
-
-## ▶️ How to Run
-streamlit run app.py
-
----
-
 # 📁 Project Structure
 Customer-Churn/
-│── app.py
-│── models/
-│── data/
-│── README.md
+  ├── app.py
+  ├── requirements.txt
+  ├── README.md
+  ├── data/
+  └── models/
+
+----
+
+## Tech Stack
+
+- Python (Pandas, Scikit-learn)  
+- Streamlit  
+- SQL  
+- Plotly  
+
+---
+
+## Key Takeaway
+
+This project demonstrates how churn prediction can move beyond modeling into **actionable product strategy and decision-making**.
+
 
 ----
 
